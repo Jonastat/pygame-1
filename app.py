@@ -31,8 +31,6 @@ def crear_bala():
         ultima_bala = pygame.time.get_ticks()
 
 def gestionar_teclas(teclas):
-    """ if teclas[pygame.K_w]: cubo.y -= cubo.velocidad
-    if teclas[pygame.K_s]: cubo.y += cubo.velocidad """
     if teclas[pygame.K_a]: cubo.x -= cubo.velocidad
     if teclas[pygame.K_d]: cubo.x += cubo.velocidad
     if teclas[pygame.K_SPACE]: crear_bala()
